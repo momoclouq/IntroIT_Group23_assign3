@@ -1,0 +1,26 @@
+Group Report Week 9:
+	
+	This week, after finished the Assignment 2, we moved immediately into Assignment 3, starting with a group meeting on Wednesday. After a long discussion  between members, we have come to a agreement about : The project, everyone’s roles, deadline for each tasks until 9/20.
+	
+	Our project will be a website that named Easy Cook which centers around food saving and nutrition. Sometimes, we don’t finish our meal, and the leftover food will be discarded. That, is a waste. One of Easy Cook ‘s main feature is to give users the knowledge to turn that leftover food into another brand new dish for the next meal. This can be done with a variety of recipes that we have which target your specific leftover food. Another important feature of Easy Cook is the ability to calculate how much nutrition per dish will give us in one meal. This is important for any who are careful in their diet. Example users will be athlete, body builder, patience, dieter.  We also include some minors feature such as a whole forum for people to discuss, articles revolved around food and diet, many more.
+
+	In this week, we had a successful meeting on Wednesday which tell everyone clearly about the plan, the project, each individual task and their expected deadline. Each person is required to commit to Github per day and also report their progress on the group Excel. It’s 2 days in at the time I wrote this report, that mean I expect people to get some work done such as basic html file, some paragraphs done, etc.
+	
+	Unlike last Assignment, or more accurately, we learnt from last Assignment. This time, we set up groupwork immediately with specific task for everyone to do, they are also got their own deadline. This mean there is no excuse for slacking. We do feel a bit tired for having to work right after last Assignment 2 but with the correct time management, we will overcome that.
+
+	If I can tell something to my past self, then this plan and workflow is exactly what I would tell him, we will save a lot of problems if we had done this sooner ( we actually did that, it’s just a bit late).
+
+Individual Reflection Week 9:
+	
+	Shortly after finished Assignment 2, I had a group meeting with my group on Wednesday. We had a discussion about Assignment 3, how we should do it, what should me (and others) do in order to success. We also briefly mentioned about the incoming presentation on last week. I received my roles, my tasks, and I’m happy with them (we volunteer to do task individually so no hard feeling for anyone). And I’m also happy for my teammates too, because all of them receive their individual tasks, everything is in places.  
+
+	(Description from the Group Report) Our project will be a website that named Easy Cook which centers around food saving and nutrition. Sometimes, we don’t finish our meal, and the leftover food will be discarded. That, is a waste. One of Easy Cook ‘s main feature is to give users the knowledge to turn that leftover food into another brand new dish for the next meal. This can be done with a variety of recipes that we have which target your specific leftover food. Another important feature of Easy Cook is the ability to calculate how much nutrition per dish will give us in one meal. This is important for any who are careful in their diet. Example users will be athlete, body builder, patience, dieter.  We also include some minors feature such as a whole forum for people to discuss, articles revolved around food and diet, many more.
+
+	Compare to last week, we both had a meeting, but this time, it’s much better. Reason is because we have this meeting much sooner, right at the beginning. This not only give everyone’s direction as to what to do, it’s also gives people motivation, improve team’s morale. If I can turn back time, I would definitely host a meeting myself or encourage others to do it.
+
+	To my surprise, this time, everyone trusted me and gave me the title Technical Leader, they believed that I can help everyone in the team when they need advises. I learnt that by performing well, you can gain other people trust, and when they do trust you, you will eventually get the rewards you deserve, I believe this is true for any teamwork both in Uni and in real world environment.
+
+	In conclusion, we have set our plan nicely right from the start. My team trust me and I will trust them on their part. Together I believe we can achieve good result
+
+	
+	
