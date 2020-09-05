@@ -1,6 +1,6 @@
 # Pull before working !!!
 
-# project: ???
+# project: easycook
 
 # Workflow 
 
@@ -17,6 +17,6 @@
 
 - Draft (group-required parts): https://docs.google.com/document/d/19_mZGmkvUFEpsJuE9UV5UGMuyD-q9M3jYEVu9gKQNLI/edit?usp=sharing
 
-- webpage link: not yet available, wait for the project name to create the right domain
+- webpage link: https://momoclouq.github.io/IntroIT_Group23_assign3/ (cannot get the custom domain without buying one .-.)
 
 # About progress report ???
