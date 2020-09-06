@@ -17,6 +17,8 @@
 
 - Draft (group-required parts): https://docs.google.com/document/d/19_mZGmkvUFEpsJuE9UV5UGMuyD-q9M3jYEVu9gKQNLI/edit?usp=sharing
 
+- Report assignment 2 (for reference): https://docs.google.com/document/d/1XNk23czbDlq_cwwlDq3jTtyOUrrAAbScUr9D47tOArY/edit
+
 - webpage link: https://momoclouq.github.io/IntroIT_Group23_assign3/ (cannot get the custom domain without buying one .-.)
 
 # About progress report ???
