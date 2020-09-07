@@ -1,0 +1,10 @@
+As mentioned above, Easycook is a website with multiple functions that servers multiple purposes. However, given the limit in both the abilities of our group (we are all first year students) and the time (we have roughly 20 days), it's not possible to finish the whole website. Knowing that, it's important that we set the scopes of what we can achieve within our limit.
+
+When looking at the ability to program a website, most of our group member only know about html and css. 
+First, The use of forum require a form of login, with user id and user password, then a storage to keep those information, which need the knowledge of php as well as database. One of our member know how to use php to create one admin account for the whole website, so that's all what we go for regarding this aspect. 
+Second, to implement food recipe correctly, we need the use of database, which again, none of us know how to use (and even if we do, we can't find the data to put in that database). Therefore, we settle with using html to create this feature "manually". However, in this way, it's impossible to put in a lot of recipes, so it will only be a small sample (around 10 ten food and 30 recipes, maybe).
+Third, another important feature of Easycook is the ability to calculate the important nutritions per serving dish (probably will be protein, carbohydrate and lipid). This can be done by using javascript (php can too but it will be harder, we'll consider if we have enough time).
+Since most of website is created using client sides only (except some parts), the security of this website is pretty much none existance.
+The rest of the website like page design, link, etc can be done using html and css should be no problem for us.
+
+
