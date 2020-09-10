@@ -71,7 +71,7 @@ body
       justify-content: space-between;
   }
 
-  #wrapper a
+  #nav a
   {
       background: #3c3140;
       color: white;
@@ -86,4 +86,12 @@ body
       background: #b3eff5;
       height: fit-content;
       padding: 20px;
+      display: flex;
+      justify-content: center;
+  }
+
+  #nav a#icon
+  {
+      background-image: url("../resources/potato.jpg");
+      background-size: cover;
   }
