@@ -1,0 +1,33 @@
+Name: Pham Hoang Minh
+Student number: s3871126
+
+Assignment 3 - IntroIT - individual parts in project description
+
+Project description
+Group processes and communications
+
+The means of communication now (up till 4/9/2020) are:
+Facebook messenger (text): Most of our communications are on Facebook messenger as all of the team members have a Facebook account and use messenger frequently. This also means that we are used to the interface of this texting application, thus avoid the need of getting used to a different messaging applications (Whatsapp, viber, zalo, etc). These messages are mostly used for normal conversations, discussions of small details and voting. Frequency: almost daily
+Group meeting (face to face, on RMIT campus): We have decided that we would held a group meeting every Thursday, when we would discuss in detail the things that we need to do and the problems that required group work. The specific time is flexible and chosen during the messages in Facebook messenger. Normally, everyone in the team has to show up on time and participate in the group discussion, this is until now the truth about my team. Frequency: Once a week on Thursday, can have more if needed.
+Github commit messages and readme file: This method is to show the exact detail of the work that had been done by members. The whole team can follow the commit messages and continue working without negatively affecting the project. Readme file is used as a workflow description and a place for important notes for the whole team.  Frequency: Once or twice a week, more when it is closer to the deadline.
+Google Spreadsheet: This method is to show the accurate work distribution among the members and the progress of their respective work in detail (the members can describe their own progress without the bothersome layout of GitHub or the need to rely on abstract comments of git commits). This method is particular effective in monitoring the timeframe and the progress of each member. Frequency: Once a day for each member (or at least when he/she finishes his work in that day)
+Email: This method is used for information exchange when the data is important and required to be typed in a formal format. An example would be the details of user experience design of the web page, sent from the UX designer to the developer. Frequency: Depend on individuals
+
+There are other forms of communication such as talking during the lectures, tutorials or individual meetings/messages, but these are insignificant and impossible to record/ keep track of. 
+
+Expectations: 
+Common rules: 
+Be polite to each other
+Do not lie
+Participate in the discussions
+Do not delete/modify any communication results
+Specific rules:
+On Facebook messenger: Every member has to respond to a subject that is related to him/her within a period of 2 days. If there is an emergency, the person involved would have to inform the team within a period of 7 days
+In Group meetings: Members have to be at the meeting on time, with at most a 30 minute late without excuses. When the member has specific reasons to not arrive on time/ not show up, he/she has to inform the team before the meeting time.
+Github commit messages and README file: As all members can push things to GitHub without the need of a group leader to check the content, the most important rule is that members are not allowed to change other members content without their permission. Members also are not allowed to push unrelated things or write improper commit messages or add unrelated things to README file.
+Email: Members have to use proper email writing etiquette and be polite to each other. Only appropriate information/data can be sent. The receiver has to respond to the email within a period of 3 days, if there is an emergency, the person involved would have to inform the team within a period of 7 days.
+
+Consequences:
+If the member does not follow these expectations, first time would result in a reminder by team members, second time would result in that person reprimanded in the group meeting, the third time would result in permanent remarks on that person’s group reflection and feedback, which would negatively affect his/her marks.
+
+
