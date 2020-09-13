@@ -21,4 +21,6 @@
 
 - webpage link: https://momoclouq.github.io/IntroIT_Group23_assign3/ (cannot get the custom domain without buying one .-.)
 
+- Recipes: https://docs.google.com/document/d/1uT7G-tMTnlNiUPcZBy8DUu8vl_4YpcrqY9iqqmEQyuw/edit?usp=sharing
+
 # About progress report
