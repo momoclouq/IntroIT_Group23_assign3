@@ -10,7 +10,7 @@
 
 - The group-required parts of the report will be done in the docs link below
 - Small individual parts (individual profile, etc) should be typed directly to the draft
-- The individual parts (project description) of the report will be done in individual folders (create your own in the report folder!)
+- The individual parts (project description) of the report will be done in individual folders
 
 # links
 - Work distribution: https://docs.google.com/spreadsheets/d/1yc61Rf50u73piJ6Q3PwvOXTXHJG1dFPfpRapq1vKBMM/edit?usp=sharing
@@ -21,4 +21,4 @@
 
 - webpage link: https://momoclouq.github.io/IntroIT_Group23_assign3/ (cannot get the custom domain without buying one .-.)
 
-# About progress report ???
+# About progress report
