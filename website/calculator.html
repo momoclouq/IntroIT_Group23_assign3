@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>Live Dinner Restaurant - Responsive HTML5 Template</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<script defer src="js/calculate.js"></script>
+	<style>
+		body {font-family: Arial, Helvetica, sans-serif;}
+		* {box-sizing: border-box}
+		
+		/* Full-width input fields */
+		select, input[type=password] {
+		  width: 100%;
+		  padding: 15px;
+		  margin: 5px 0 22px 0;
+		  display: inline-block;
+		  border: none;
+		  background: #f1f1f1;
+		}
+		
+		select,input[type=text]:focus, input[type=password]:focus {
+		  background-color: #ddd;
+		  outline: none;
+		}
+		
+		hr {
+		  border: 1px solid #f1f1f1;
+		  margin-bottom: 25px;
+		}
+		
+		/* Set a style for all buttons */
+		button {
+		  background-color: #4CAF50;
+		  color: white;
+		  padding: 14px 20px;
+		  margin: 8px 0;
+		  border: none;
+		  cursor: pointer;
+		  width: 100%;
+		  opacity: 0.9;
+		}
+		
+		button:hover {
+		  opacity:1;
+		}
+		
+		/* Extra styles for the cancel button */
+		.cancelbtn {
+		  padding: 14px 20px;
+		  background-color: #f44336;
+		}
+		
+		/* Float cancel and signup buttons and add an equal width */
+		.cancelbtn, .signupbtn {
+		  float: left;
+		  width: 20%;
+		}
+		
+		/* Add padding to container elements */
+		.container {
+		  padding: 16px;
+		}
+		
+		/* Clear floats */
+		.clearfix::after {
+		  content: "";
+		  clear: both;
+		  display: table;
+		}
+		
+		/* Change styles for cancel button and signup button on extra small screens */
+		@media screen and (max-width: 300px) {
+		  .cancelbtn, .signupbtn {
+			 width: 100%;
+		  }
+		}
+		</style>
+</head>
+
+<body>
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.jpg" width="100" height="75" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-rs-food">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></li>
+						<li class="nav-item"><a class="nav-link" href="menu.html">Thực đơn</a></li>
+						<li class="nav-item active"><a class="nav-link" href="calculator.html">Tính calorie</a></li>
+						<li class="nav-item"><a class="nav-link" href="article.html">Tin tức</a></li>
+						<li class="nav-item"><a class="nav-link" href="aboutus.html">Về chúng tôi</a></li>
+						<li class="nav-item"><a class="nav-link" href="support.html">Hỗ trợ</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Tài khoản</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="login.html">Đăng nhập</a>
+								<a class="dropdown-item" href="signup.html">Đăng ký</a>
+								
+							</div>
+						</li>
+						
+					
+						
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<!-- Start header -->
+	<div class="all-page-title page-breadcrumb">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Calorie </h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End header -->
+	
+	<!-- Start About -->
+	
+	<!-- End About -->
+	
+	<!-- Start Menu -->
+	
+	<form action="/action_page.php" style="border:1px solid #ccc">
+		<div class="container">
+		  <h1>Hãy lần lượt nhập mã của các món ăn (Ví dụ : V1), tổng calorie của các món sẽ được tính một cách tự động. Trong trường hợp bạn chỉ muốn tính một món, chỉ cần nhập một mã</h1>
+		  
+		  <hr>
+	  
+		  <label for="Code"><b>Món thứ nhất</b></label>
+		  <select name="Food1" id="FF1" onchange="calculate()">
+			<option value="">Xin chọn mã món ăn</option>
+			<option value="334">V1 - Cơm chiên thập cẩm
+			</option>
+			<option value="356">V2 - Cháo gà nấm </option>
+			<option value="324">V3 - Mì xào hải sản
+			</option>
+			<option value="435">V4 - Mì gói xào trứng và xúc xích</option>
+			<option value="424">V5 - Rau xào thập cẩm</option>
+			<option value="421">V6 - Bò hầm rau củ</option>
+			<option value="345">V7 - Bún xào chả giò </option>
+			<option value="485">V8 - Chả cá viên chiên</option>
+			<option value="382">V9 - Cốt lết sốt cà</option>
+
+			<option value="372">T1 - Bánh mì nướng kiểu pháp với gia vị
+			</option>
+			<option value="367">T2 - Thịt hộp nướng, trứng chiên và khoai tây ướp nướng </option>
+			<option value="321">T3 - Gà chimichangas
+			</option>
+			<option value="432">T4 - Súp gà với mì nhanh và dễ</option>
+			<option value="413">T5 - Thịt bò nướng</option>
+			<option value="435">T6 - Thịt cừu và bánh khoai tây còn sót lại</option>
+			<option value="483">T7 - lẩu đậu hũ và kim chi </option>
+			<option value="436">T8 - Pizza gà và pesto</option>
+			<option value="365">T9 - Mì rau chân vịt</option>
+
+			<option value="492">U1 - </option>
+			<option value="389">U2 - </option>
+			<option value="342">U3 - </option>
+		  </select>
+	  
+		  <label for="Code"><b>Món thứ hai</b></label>
+		  <select name="Food2" id="FF2" onchange="calculate()">
+			<option value="">Xin chọn mã món ăn</option>
+			<option value="334">V1 - Cơm chiên thập cẩm
+			</option>
+			<option value="356">V2 - Cháo gà nấm </option>
+			<option value="324">V3 - Mì xào hải sản
+			</option>
+			<option value="435">V4 - Mì gói xào trứng và xúc xích</option>
+			<option value="424">V5 - Rau xào thập cẩm</option>
+			<option value="421">V6 - Bò hầm rau củ</option>
+			<option value="345">V7 - Bún xào chả giò </option>
+			<option value="485">V8 - Chả cá viên chiên</option>
+			<option value="382">V9 - Cốt lết sốt cà</option>
+
+			<option value="372">T1 - Bánh mì nướng kiểu pháp với gia vị
+			</option>
+			<option value="367">T2 - Thịt hộp nướng, trứng chiên và khoai tây ướp nướng </option>
+			<option value="321">T3 - Gà chimichangas
+			</option>
+			<option value="432">T4 - Súp gà với mì nhanh và dễ</option>
+			<option value="413">T5 - Thịt bò nướng</option>
+			<option value="435">T6 - Thịt cừu và bánh khoai tây còn sót lại</option>
+			<option value="483">T7 - lẩu đậu hũ và kim chi </option>
+			<option value="436">T8 - Pizza gà và pesto</option>
+			<option value="365">T9 - Mì rau chân vịt</option>
+
+			<option value="492">U1 - </option>
+			<option value="389">U2 - </option>
+			<option value="342">U3 - </option>
+		  </select>
+	  
+		  <label for="Code"><b>Món thứ ba</b></label>
+		  <select name="Food3" id="FF3" onchange="calculate()">
+			<option value="">Xin chọn mã món ăn</option>
+			<option value="334">V1 - Cơm chiên thập cẩm
+			</option>
+			<option value="356">V2 - Cháo gà nấm </option>
+			<option value="324">V3 - Mì xào hải sản
+			</option>
+			<option value="435">V4 - Mì gói xào trứng và xúc xích</option>
+			<option value="424">V5 - Rau xào thập cẩm</option>
+			<option value="421">V6 - Bò hầm rau củ</option>
+			<option value="345">V7 - Bún xào chả giò </option>
+			<option value="485">V8 - Chả cá viên chiên</option>
+			<option value="382">V9 - Cốt lết sốt cà</option>
+
+			<option value="372">T1 - Bánh mì nướng kiểu pháp với gia vị
+			</option>
+			<option value="367">T2 - Thịt hộp nướng, trứng chiên và khoai tây ướp nướng </option>
+			<option value="321">T3 - Gà chimichangas
+			</option>
+			<option value="432">T4 - Súp gà với mì nhanh và dễ</option>
+			<option value="413">T5 - Thịt bò nướng</option>
+			<option value="435">T6 - Thịt cừu và bánh khoai tây còn sót lại</option>
+			<option value="483">T7 - lẩu đậu hũ và kim chi </option>
+			<option value="436">T8 - Pizza gà và pesto</option>
+			<option value="365">T9 - Mì rau chân vịt</option>
+
+			<option value="492">U1 - </option>
+			<option value="389">U2 - </option>
+			<option value="342">U3 - </option>
+		  </select>
+		  <label for="Code"><b>Món thứ bốn</b></label>
+		  <select name="Food4" id="FF4" onchange="calculate()">
+			<option value="">Xin chọn mã món ăn</option>
+			<option value="334">V1 - Cơm chiên thập cẩm
+			</option>
+			<option value="356">V2 - Cháo gà nấm </option>
+			<option value="324">V3 - Mì xào hải sản
+			</option>
+			<option value="435">V4 - Mì gói xào trứng và xúc xích</option>
+			<option value="424">V5 - Rau xào thập cẩm</option>
+			<option value="421">V6 - Bò hầm rau củ</option>
+			<option value="345">V7 - Bún xào chả giò </option>
+			<option value="485">V8 - Chả cá viên chiên</option>
+			<option value="382">V9 - Cốt lết sốt cà</option>
+
+			<option value="372">T1 - Bánh mì nướng kiểu pháp với gia vị
+			</option>
+			<option value="367">T2 - Thịt hộp nướng, trứng chiên và khoai tây ướp nướng </option>
+			<option value="321">T3 - Gà chimichangas
+			</option>
+			<option value="432">T4 - Súp gà với mì nhanh và dễ</option>
+			<option value="413">T5 - Thịt bò nướng</option>
+			<option value="435">T6 - Thịt cừu và bánh khoai tây còn sót lại</option>
+			<option value="483">T7 - lẩu đậu hũ và kim chi </option>
+			<option value="436">T8 - Pizza gà và pesto</option>
+			<option value="365">T9 - Mì rau chân vịt</option>
+
+			<option value="492">U1 - </option>
+			<option value="389">U2 - </option>
+			<option value="342">U3 - </option>
+		  </select>
+		  <label for="Code"><b>Món thứ năm</b></label>
+		  <select name="Food5" id="FF5" onchange="calculate()">
+			<option value="">Xin chọn mã món ăn</option>
+			<option value="334">V1 - Cơm chiên thập cẩm
+			</option>
+			<option value="356">V2 - Cháo gà nấm </option>
+			<option value="324">V3 - Mì xào hải sản
+			</option>
+			<option value="435">V4 - Mì gói xào trứng và xúc xích</option>
+			<option value="424">V5 - Rau xào thập cẩm</option>
+			<option value="421">V6 - Bò hầm rau củ</option>
+			<option value="345">V7 - Bún xào chả giò </option>
+			<option value="485">V8 - Chả cá viên chiên</option>
+			<option value="382">V9 - Cốt lết sốt cà</option>
+
+			<option value="372">T1 - Bánh mì nướng kiểu pháp với gia vị
+			</option>
+			<option value="367">T2 - Thịt hộp nướng, trứng chiên và khoai tây ướp nướng </option>
+			<option value="321">T3 - Gà chimichangas
+			</option>
+			<option value="432">T4 - Súp gà với mì nhanh và dễ</option>
+			<option value="413">T5 - Thịt bò nướng</option>
+			<option value="435">T6 - Thịt cừu và bánh khoai tây còn sót lại</option>
+			<option value="483">T7 - lẩu đậu hũ và kim chi </option>
+			<option value="436">T8 - Pizza gà và pesto</option>
+			<option value="365">T9 - Mì rau chân vịt</option>
+
+			<option value="492">U1 - </option>
+			<option value="389">U2 - </option>
+			<option value="342">U3 - </option>
+		  </select>
+		  <label for="Code"><b>Món thứ sáu</b></label>
+		  <select name="Food6" id="FF6" onchange="calculate()">
+			<option value="">Xin chọn mã món ăn</option>
+			<option value="334">V1 - Cơm chiên thập cẩm
+			</option>
+			<option value="356">V2 - Cháo gà nấm </option>
+			<option value="324">V3 - Mì xào hải sản
+			</option>
+			<option value="435">V4 - Mì gói xào trứng và xúc xích</option>
+			<option value="424">V5 - Rau xào thập cẩm</option>
+			<option value="421">V6 - Bò hầm rau củ</option>
+			<option value="345">V7 - Bún xào chả giò </option>
+			<option value="485">V8 - Chả cá viên chiên</option>
+			<option value="382">V9 - Cốt lết sốt cà</option>
+
+			<option value="372">T1 - Bánh mì nướng kiểu pháp với gia vị
+			</option>
+			<option value="367">T2 - Thịt hộp nướng, trứng chiên và khoai tây ướp nướng </option>
+			<option value="321">T3 - Gà chimichangas
+			</option>
+			<option value="432">T4 - Súp gà với mì nhanh và dễ</option>
+			<option value="413">T5 - Thịt bò nướng</option>
+			<option value="435">T6 - Thịt cừu và bánh khoai tây còn sót lại</option>
+			<option value="483">T7 - lẩu đậu hũ và kim chi </option>
+			<option value="436">T8 - Pizza gà và pesto</option>
+			<option value="365">T9 - Mì rau chân vịt</option>
+
+			<option value="492">U1 - </option>
+			<option value="389">U2 - </option>
+			<option value="342">U3 - </option>
+		  </select>
+		  
+	  
+		  <div class="clearfix">
+			
+			<button type="submit" class="signupbtn" id="totalcalo">Tổng calo</button>
+		  </div>
+		</div>
+	  </form>
+	<!-- End Menu -->
+	
+	<!-- Start Contact info -->
+	
+	<!-- End Contact info -->
+	
+	<!-- Start Footer -->
+	
+	<!-- End Footer -->
+	
+	<a href="#" id="back-to-top" title="Back to top" style="display: none;"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
+
+	<!-- ALL JS FILES -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="js/jquery.superslides.min.js"></script>
+	<script src="js/images-loded.min.js"></script>
+	<script src="js/isotope.min.js"></script>
+	<script src="js/baguetteBox.min.js"></script>
+	<script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
