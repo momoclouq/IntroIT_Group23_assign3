@@ -19,7 +19,7 @@
 
 - Report assignment 2 (for reference): https://docs.google.com/document/d/1XNk23czbDlq_cwwlDq3jTtyOUrrAAbScUr9D47tOArY/edit
 
-- webpage link: https://momoclouq.github.io/IntroIT_Group23_assign3/docs (cannot get the custom domain without buying one .-.)
+- webpage link: https://momoclouq.github.io/IntroIT_Group23_assign3/website (cannot get the custom domain without buying one .-.)
 
 - Recipes: https://docs.google.com/document/d/1uT7G-tMTnlNiUPcZBy8DUu8vl_4YpcrqY9iqqmEQyuw/edit?usp=sharing
 
