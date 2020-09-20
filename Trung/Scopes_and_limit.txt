@@ -1,10 +1,17 @@
-As mentioned above, Easycook is a website with multiple functions that servers multiple purposes. However, given the limit in both the abilities of our group (we are all first year students) and the time (we have roughly 20 days), it's not possible to finish the whole website. Knowing that, it's important that we set the scopes of what we can achieve within our limit.
+The first feature of our website is helping our users to find the appropriate recipes for specific leftovers. We have a wide range of choices and recipes for the typical leftovers of Vietnamese people. We also try to include some recipes related to famous Western fast foods because most young Vietnamese people these days tend to prefer eating those foods. This feature's limitation is that it does not have any recipes for fusion foods, and most of the recipes come from our own experience and creativity, and little part from another source. Therefore, we do not know our users will have the same taste as we have.
 
-When looking at the ability to program a website, most of our group member only know about html and css. 
-First, The use of forum require a form of login, with user id and user password, then a storage to keep those information, which need the knowledge of php as well as database. One of our member know how to use php to create one admin account for the whole website, so that's all what we go for regarding this aspect. 
-Second, to implement food recipe correctly, we need the use of database, which again, none of us know how to use (and even if we do, we can't find the data to put in that database). Therefore, we settle with using html to create this feature "manually". However, in this way, it's impossible to put in a lot of recipes, so it will only be a small sample (around 10 ten food and 30 recipes, maybe).
-Third, another important feature of Easycook is the ability to calculate the important nutritions per serving dish (probably will be protein, carbohydrate and lipid). This can be done by using javascript (php can too but it will be harder, we'll consider if we have enough time).
-Since most of website is created using client sides only (except some parts), the security of this website is pretty much none existance.
-The rest of the website like page design, link, etc can be done using html and css should be no problem for us.
+Our website's second feature is helping our users calculate the total calories of the dishes that are cooked following our recipes on our page and some common dishes in Vietnam. The limitation of this feature is that we do not have an accurate number for each dish. We only show the average number. This is because, in a different part of our country or the other restaurant, they have a "unique" style of seasoning, so we do not have an exact figure for each dish of a particular region or restaurant.
+
+Another feature of our website is providing our users with educative and informative articles or news associated with foods and health. However, at the moment, we can not publish our articles. We can only provide our users those articles from another source. We will translate those articles into Vietnamese and add a few of our opinions and advice in the context of Vietnam.
+
+The remaining features are Support and Log in/ Sign up. In the Support page, we created a place to provide our users the answers to some basic and common questions regarding our product. If there is no answer to their question, there is a section that they can type their concern directly and send it to us to get the fastest response. This feature's limitation is that we want to include one more part to everyone interested in our product and want to collaborate or invest in us. However, this seems like need a bit more professional design.
+
+Regarding the Login/ Sign up feature, we allow users to create a new account or log in via Facebook, Twitter, and Google. Nevertheless, this is just a sample because most of the team members do not have any experience in dealing with the back-end part in web programming. Thus, we are not able to create a database in three weeks.
+
+
+
+
+
+
 
 
